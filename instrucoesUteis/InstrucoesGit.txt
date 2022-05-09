@@ -1,0 +1,14 @@
+git passo a passo - básico do básico - remember
+
+mkdir para criar um arquivo 
+git add * > para adicionar arquivos 
+git commit -m "commit inicial"
+git status para verificar o estado 
+git add nome do arquivo
+Se fizer qualquer modificação no arquivo deve-se começar novamente
+git add
+git commit -m "descrição da modificação"
+..
+para enviar modificações para a plataforma
+git pull para atualizar
+git push para enviar as modificações

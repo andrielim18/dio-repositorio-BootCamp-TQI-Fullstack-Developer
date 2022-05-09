@@ -1,0 +1,13 @@
+Site para pegar imagens
+     https://unsplash.com
+Site para pegar textos para preenchimento de parágrafos
+     https://mussumipsum.com/
+Site referência para aprender HTML/CSS
+	https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+Formatando padding e margin
+Padding -> espaço interno entre os elementos
+margin -> espaço externo
+Exemplo:
+Padding: 10px 12px 5px 8px (superior, direita, inferior, esquerda)
+Margin: 10px 12px 5px 8px (superior, direita, inferior, esquerda)
