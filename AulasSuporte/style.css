@@ -1,0 +1,85 @@
+
+section{
+    margin: 10px;
+}
+.section1, .section2, .section3{
+    border: 2px solid black;
+    background-color: bisque;
+  
+
+}
+div, span{
+    border: 1px solid black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/*toda div tem display block - ocupa linha interira*/
+/*span naturalemnte tem display in line*/
+
+#d1{ display: inline-block;/*display: none;como se o elemento não existisse, inclusive o espaço ocupado por ele desaparece*/
+   /* visibility: hidden; O conteúdo fica oculto, mas o espaço dele permanece na página*/
+} 
+
+#d2{
+    display: inline-block; /*ocupará apenas o espaço do seu conteúdo e todos  os elementos abaixo que couberem na linha acima, subirão*/
+/*elementos inline deverão ser transformados em inline-block para receberem configuração de tamanhos diferentes*/
+}
+
+#s1{
+    display: inline-block;  /*transformará um elemento in line em block, fazendo com que ele ocupe toda a linha em que ele está inserido*/
+}
+
+#s2{
+    background-color: aquamarine; /*este elemento não recebeu a configuração acima, pois permanece inline*/
+}
+
+.d3{
+    border: 1px solid black;
+    background-color: tomato;
+    margin: 5px;
+  /*  display: table-cell;  a div se comportará como uma célula*/
+    text-align: center;
+    vertical-align: middle; /*essa configuração funciona apenas para display table cell*/
+}
+
+ul, ol, li{
+    border: 1px solid black;
+    margin:0;
+    padding: 0;
+}
+ol{
+    display: table; /*configuração de tabela*/
+    margin: 15px;
+    width: 250px;
+   
+
+}
+
+ul{
+    display: table-row; /*fomarto de linha dentro de uma tabela*/
+}
+
+li{
+    display: table-cell;
+    text-align: center;
+}
+
+.titulo{
+    background-color: rgb(116, 83, 33);
+    color: white;
+}
+
+.section3{
+    display: flex; /*os elementos se ajustam dentro do container de forma igual*/
+    min-width: 400px; /*a tela vai diminuir até chegar na largura mínima de 400px*/
+    flex-wrap: wrap; /*os elementos quebram a linha quando a tela diminui*/
+}
+
+#c1,#c2,#c3,#c4,#c5,#c6{
+    flex: 1; /*O elemento se ajustará ao elemento pai*/
+    height: 100px;
+    text-align: center;
+    background-color: blueviolet;
+}
